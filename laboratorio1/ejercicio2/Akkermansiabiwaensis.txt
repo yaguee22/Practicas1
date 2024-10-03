@@ -1,0 +1,1 @@
+Akkermansia biwaensis	2946555	PRJDB13654	874222	PVC group	Verrucomicrobiota	3.17552	56.8	chromosome:NZ_AP025943.1/AP025943.1	-	1	2615	2536	2022/08/25	2022/11/11	Complete Genome	Otsuka Pharmaceutical Co.,Ltd.	SAMD00493148	GCA_026072915.1	REPR	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/026/072/915/GCF_026072915.1_ASM2607291v1	-	WON2089
