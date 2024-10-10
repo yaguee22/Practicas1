@@ -76,7 +76,6 @@ Resumen <- toy %>% group_by(Sex) %>% summarise(mediaIMC = mean(IMC,na.rm = T),me
 
 
 #SOLO PACIENTES FEMENINOS
-toy %>% group_by("")
 femeninos <- toy %>% filter(Sex == "Women")
 toy %>% filter(Sex == "Women") %>% tally
 #58
