@@ -72,7 +72,7 @@ ggplot(starwars2, aes(height, mass)) + geom_point(colour = "green") + theme_dark
 #CREA UN RESUMEN DE LA MEDIA
 toy <- read_csv("Descargas/toy.csv")
 
-Resumen <- toy %>% summarise(mediaIMC = mean(IMC,na.rm = T),mediaIAS = mean(IAS,na.rm = T),mediapeso = mean(Weight_Kg,na.rm = T),mediaCcintura = mean(Ccintura,na.rm = T))
+Resumen <- toy %>% group_by(Sex) %>% summarise(mediaIMC = mean(IMC,na.rm = T),mediaIAS = mean(IAS,na.rm = T),mediapeso = mean(Weight_Kg,na.rm = T),mediaCcintura = mean(Ccintura,na.rm = T))
 
 
 #SOLO PACIENTES FEMENINOS
